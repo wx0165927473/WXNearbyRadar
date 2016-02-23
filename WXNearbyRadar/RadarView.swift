@@ -19,7 +19,7 @@ class RadarView: UIView {
     */
     
     override class func layerClass() -> AnyClass {
-        return AngleGradientLayer.classForCoder()
+        return GradientAngleCALayer.classForCoder()
     }
     
     override init(frame: CGRect) {
@@ -28,14 +28,13 @@ class RadarView: UIView {
         self.backgroundColor = UIColor.clearColor()
         self.opaque = false
         // Change the color of scan animation
-        let colors = [UIColor(red: 192/255, green: 57/255, blue: 43/255, alpha: 1.0).CGColor,
-                      UIColor(red: 1, green: 1, blue: 1, alpha: 0).CGColor,
-                      UIColor(red: 1, green: 1, blue: 1, alpha: 0).CGColor,
-                      UIColor(red: 1, green: 1, blue: 1, alpha: 0).CGColor,
-                      UIColor(red: 1, green: 1, blue: 1, alpha: 0).CGColor]
+        let colors = [UIColor(red: 1, green: 1, blue: 1, alpha: 0),
+                      UIColor(red: 1, green: 1, blue: 1, alpha: 0),
+                      UIColor(red: 1, green: 1, blue: 1, alpha: 0),
+                      UIColor(red: 192/255, green: 57/255, blue: 43/255, alpha: 1.0)]
         
         // AngleGradientLayer by Pavel Ivashkov
-        let l : AngleGradientLayer = self.layer as! AngleGradientLayer
+        let l = self.layer as! GradientAngleCALayer
         l.colors = colors
         
         // Since our gradient layer is built as an image,

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683B28951C7D0E4600CD4FB6 /* GradientAngleCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B28941C7D0E4600CD4FB6 /* GradientAngleCALayer.swift */; };
 		6866B9871C7C04E000CDD62A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B9861C7C04E000CDD62A /* AppDelegate.swift */; };
 		6866B9891C7C04E000CDD62A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B9881C7C04E000CDD62A /* ViewController.swift */; };
 		6866B98C1C7C04E000CDD62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6866B98A1C7C04E000CDD62A /* Main.storyboard */; };
 		6866B98E1C7C04E000CDD62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6866B98D1C7C04E000CDD62A /* Assets.xcassets */; };
 		6866B9911C7C04E000CDD62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6866B98F1C7C04E000CDD62A /* LaunchScreen.storyboard */; };
 		6866B9991C7C050800CDD62A /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B9981C7C050800CDD62A /* RadarView.swift */; };
-		6866B99D1C7C051500CDD62A /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6866B99C1C7C051500CDD62A /* AngleGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		683B28941C7D0E4600CD4FB6 /* GradientAngleCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientAngleCALayer.swift; sourceTree = "<group>"; };
 		6866B9831C7C04E000CDD62A /* WXNearbyRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXNearbyRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6866B9861C7C04E000CDD62A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6866B9881C7C04E000CDD62A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +27,6 @@
 		6866B9921C7C04E000CDD62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6866B9981C7C050800CDD62A /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 		6866B99A1C7C051500CDD62A /* WXNearbyRadar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXNearbyRadar-Bridging-Header.h"; sourceTree = "<group>"; };
-		6866B99B1C7C051500CDD62A /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleGradientLayer.h; sourceTree = "<group>"; };
-		6866B99C1C7C051500CDD62A /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +62,7 @@
 				6866B9861C7C04E000CDD62A /* AppDelegate.swift */,
 				6866B9881C7C04E000CDD62A /* ViewController.swift */,
 				6866B9981C7C050800CDD62A /* RadarView.swift */,
-				6866B99B1C7C051500CDD62A /* AngleGradientLayer.h */,
-				6866B99C1C7C051500CDD62A /* AngleGradientLayer.m */,
+				683B28941C7D0E4600CD4FB6 /* GradientAngleCALayer.swift */,
 				6866B98A1C7C04E000CDD62A /* Main.storyboard */,
 				6866B98D1C7C04E000CDD62A /* Assets.xcassets */,
 				6866B98F1C7C04E000CDD62A /* LaunchScreen.storyboard */,
@@ -151,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6866B9891C7C04E000CDD62A /* ViewController.swift in Sources */,
-				6866B99D1C7C051500CDD62A /* AngleGradientLayer.m in Sources */,
 				6866B9991C7C050800CDD62A /* RadarView.swift in Sources */,
 				6866B9871C7C04E000CDD62A /* AppDelegate.swift in Sources */,
+				683B28951C7D0E4600CD4FB6 /* GradientAngleCALayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +304,7 @@
 				6866B9971C7C04E000CDD62A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
