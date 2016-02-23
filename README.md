@@ -1,7 +1,7 @@
 
 WXNearbyRadar
 ====================
-This is a simple demo shows the UI of looking for nearby people.
+This is a simple demo shows the Animation and UI of looking for nearby people.
 
 <img src="https://github.com/wx0165927473/WXNearbyRadar/raw/master/demo.gif" width="300" />
 
