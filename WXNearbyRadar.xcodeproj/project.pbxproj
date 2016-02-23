@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6866B9871C7C04E000CDD62A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B9861C7C04E000CDD62A /* AppDelegate.swift */; };
+		6866B9891C7C04E000CDD62A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B9881C7C04E000CDD62A /* ViewController.swift */; };
+		6866B98C1C7C04E000CDD62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6866B98A1C7C04E000CDD62A /* Main.storyboard */; };
+		6866B98E1C7C04E000CDD62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6866B98D1C7C04E000CDD62A /* Assets.xcassets */; };
+		6866B9911C7C04E000CDD62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6866B98F1C7C04E000CDD62A /* LaunchScreen.storyboard */; };
+		6866B9991C7C050800CDD62A /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B9981C7C050800CDD62A /* RadarView.swift */; };
+		6866B99D1C7C051500CDD62A /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6866B99C1C7C051500CDD62A /* AngleGradientLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6866B9831C7C04E000CDD62A /* WXNearbyRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXNearbyRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6866B9861C7C04E000CDD62A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6866B9881C7C04E000CDD62A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6866B98B1C7C04E000CDD62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6866B98D1C7C04E000CDD62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6866B9901C7C04E000CDD62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6866B9921C7C04E000CDD62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6866B9981C7C050800CDD62A /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		6866B99A1C7C051500CDD62A /* WXNearbyRadar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXNearbyRadar-Bridging-Header.h"; sourceTree = "<group>"; };
+		6866B99B1C7C051500CDD62A /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleGradientLayer.h; sourceTree = "<group>"; };
+		6866B99C1C7C051500CDD62A /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleGradientLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6866B9801C7C04E000CDD62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6866B97A1C7C04E000CDD62A = {
+			isa = PBXGroup;
+			children = (
+				6866B9851C7C04E000CDD62A /* WXNearbyRadar */,
+				6866B9841C7C04E000CDD62A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6866B9841C7C04E000CDD62A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6866B9831C7C04E000CDD62A /* WXNearbyRadar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6866B9851C7C04E000CDD62A /* WXNearbyRadar */ = {
+			isa = PBXGroup;
+			children = (
+				6866B9861C7C04E000CDD62A /* AppDelegate.swift */,
+				6866B9881C7C04E000CDD62A /* ViewController.swift */,
+				6866B9981C7C050800CDD62A /* RadarView.swift */,
+				6866B99B1C7C051500CDD62A /* AngleGradientLayer.h */,
+				6866B99C1C7C051500CDD62A /* AngleGradientLayer.m */,
+				6866B98A1C7C04E000CDD62A /* Main.storyboard */,
+				6866B98D1C7C04E000CDD62A /* Assets.xcassets */,
+				6866B98F1C7C04E000CDD62A /* LaunchScreen.storyboard */,
+				6866B9921C7C04E000CDD62A /* Info.plist */,
+				6866B99A1C7C051500CDD62A /* WXNearbyRadar-Bridging-Header.h */,
+			);
+			path = WXNearbyRadar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6866B9821C7C04E000CDD62A /* WXNearbyRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6866B9951C7C04E000CDD62A /* Build configuration list for PBXNativeTarget "WXNearbyRadar" */;
+			buildPhases = (
+				6866B97F1C7C04E000CDD62A /* Sources */,
+				6866B9801C7C04E000CDD62A /* Frameworks */,
+				6866B9811C7C04E000CDD62A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXNearbyRadar;
+			productName = WXNearbyRadar;
+			productReference = 6866B9831C7C04E000CDD62A /* WXNearbyRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6866B97B1C7C04E000CDD62A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Xin Wu";
+				TargetAttributes = {
+					6866B9821C7C04E000CDD62A = {
+						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6866B97E1C7C04E000CDD62A /* Build configuration list for PBXProject "WXNearbyRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6866B97A1C7C04E000CDD62A;
+			productRefGroup = 6866B9841C7C04E000CDD62A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6866B9821C7C04E000CDD62A /* WXNearbyRadar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6866B9811C7C04E000CDD62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6866B9911C7C04E000CDD62A /* LaunchScreen.storyboard in Resources */,
+				6866B98E1C7C04E000CDD62A /* Assets.xcassets in Resources */,
+				6866B98C1C7C04E000CDD62A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6866B97F1C7C04E000CDD62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6866B9891C7C04E000CDD62A /* ViewController.swift in Sources */,
+				6866B99D1C7C051500CDD62A /* AngleGradientLayer.m in Sources */,
+				6866B9991C7C050800CDD62A /* RadarView.swift in Sources */,
+				6866B9871C7C04E000CDD62A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6866B98A1C7C04E000CDD62A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6866B98B1C7C04E000CDD62A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6866B98F1C7C04E000CDD62A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6866B9901C7C04E000CDD62A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6866B9931C7C04E000CDD62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6866B9941C7C04E000CDD62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6866B9961C7C04E000CDD62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WXNearbyRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinWu.WXNearbyRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WXNearbyRadar/WXNearbyRadar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6866B9971C7C04E000CDD62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WXNearbyRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinWu.WXNearbyRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WXNearbyRadar/WXNearbyRadar-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6866B97E1C7C04E000CDD62A /* Build configuration list for PBXProject "WXNearbyRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6866B9931C7C04E000CDD62A /* Debug */,
+				6866B9941C7C04E000CDD62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6866B9951C7C04E000CDD62A /* Build configuration list for PBXNativeTarget "WXNearbyRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6866B9961C7C04E000CDD62A /* Debug */,
+				6866B9971C7C04E000CDD62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6866B97B1C7C04E000CDD62A /* Project object */;
+}
