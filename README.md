@@ -4,7 +4,7 @@ WXNearbyRadar
 This is a simple demo shows the UI for looking nearby people.
 
 
-<!--<img src="https://raw.githubusercontent.com/balram3429/btSimpleRippleButton/master/btSimpleRippleButton/images/raw/btSimpleRippleButtonTwo.png" alt="btSimpleRippleButton Screenshot" width="208" height="369" /> . <img src="https://raw.githubusercontent.com/balram3429/btSimpleRippleButton/master/btSimpleRippleButton/images/raw/btSimpleRippleButtonThree.png" alt="btSimpleRippleButton Screenshot" width="208" height="369" /> . <img src="https://raw.githubusercontent.com/balram3429/btSimpleRippleButton/master/btSimpleRippleButton/images/raw/btSimpleRippleButtonFour.png" alt="btSimpleRippleButton Screenshot" width="208" height="369" />-->
+![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/demo.gif)
 
 ## Requirements
 * Xcode 7 or higher
