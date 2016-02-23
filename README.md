@@ -5,7 +5,8 @@ This is a simple demo shows the UI for looking nearby people.
 
 
 <!--![Alt Text](https://github.com/wx0165927473/WXNearbyRadar/raw/master/path/to/demo.gif)-->
-![demo](demo.gif)
+<!--![demo](demo.gif)-->
+<img src="https://raw.github.com/wx0165927473/WXNearbyRadar/master/demo.gif" width="400" />
 
 ## Requirements
 * Xcode 7 or higher
